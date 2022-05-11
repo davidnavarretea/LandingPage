@@ -47,3 +47,19 @@
 .submit {
     cursor: pointer;
 }
+/* Categories */
+.categories {
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+}
+.card {
+    margin: 1rem;
+    max-width: 19.9rem;
+}
+.titles{
+    margin: 1rem 0;
+}
+.categorytext {
+    font-weight: 100;
+}
