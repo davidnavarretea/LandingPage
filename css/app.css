@@ -1,0 +1,44 @@
+/* Navigation */
+.nav {
+    display: flex;
+    justify-content:space-between;
+    padding: 2rem;
+}
+.button {
+    color: white;
+    background-color: #0171E3;
+    padding: 1rem;
+    border-radius: 2rem;
+}
+.ico {
+    color: white;
+    background-color: black;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+/* Email */
+.emailsection {
+    background-image: url(../img/bg-masthead.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.emailcontainer {
+    max-width: 37rem;
+}
+.form {
+    text-align: center;
+}
+.title {
+    color: white;
+}
+.email {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    padding: 0.5rem;
+    width: 25rem;
+}

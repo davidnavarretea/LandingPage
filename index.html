@@ -4,13 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/app.css">
     <title>Landing Page</title>
 </head>
 <body>
-    <nav>
-        <a href="index.html"></a>
+    <!-- Navigation -->
+    <nav class="nav">
+        <a class="ico" href="index.html">Landing Page</a>
+        <a class="button" href="#">Sign In</a>
     </nav>
+    <!-- Email Section -->
+    <section class="emailsection">
+        <div class="emailcontainer">
+            <h1 class="title">Build a landing page for your business or project and generate more leads!</h1>
+            <form class="form" action="#" method="post">
+                <input type="email" name="email" class="email" autocomplete="email" placeholder="Enter your email..." required="required">
+            </form>
+        </div>
+    </section>
 </body>
 </html>
