@@ -32,7 +32,6 @@ main {
 
 h1 {
   font-size: 2em;
-  margin: 0;
 }
 
 /* Grouping content
@@ -351,4 +350,7 @@ a {
 /* Remove focus */
 *:focus {
   outline: none;
+}
+h1, h2, h3, h4, h5, p {
+  margin: 0;
 }
