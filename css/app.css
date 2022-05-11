@@ -37,8 +37,13 @@
     color: white;
 }
 .email {
+    border-radius: 1rem;
     font-size: 1.5rem;
     margin-top: 2rem;
     padding: 0.5rem;
     width: 25rem;
+    margin-right: 1rem;
+}
+.submit {
+    cursor: pointer;
 }
