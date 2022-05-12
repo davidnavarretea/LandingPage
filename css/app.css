@@ -135,3 +135,29 @@
     height: 15rem;
 }
 /* Footer */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 1.3rem 1.3rem 1.3rem;
+}
+.rrssdiv{
+    display: flex;
+}
+.rrss {
+    width: 2rem;
+    height: 2rem;
+    padding-left: 1rem;
+    filter: invert(28%) sepia(72%) saturate(2140%) hue-rotate(196deg) brightness(97%) contrast(102%);
+}
+.footerlink {
+    color: #0171E3;
+    margin-right: 1rem;
+}
+.footerlinks {
+    font-size: 1rem;
+}
+.footertext {
+    font-size: 0.8rem;
+    margin-top: 0.3rem;
+}
+/* Media Queries */
