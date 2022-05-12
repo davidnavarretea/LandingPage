@@ -124,8 +124,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 1.3rem;
-    margin-bottom: 0.7rem;
+    margin-top: 2rem;
+    margin-bottom: 1.4rem;
 }
 .testimonialtitle {
     margin-bottom: 0.16rem;
@@ -140,6 +140,7 @@
 /* Email Form Below */
 .emailsectionbelow {
     height: 17rem;
+    background-position: bottom;
 }
 /* Footer */
 .footer {
@@ -156,6 +157,9 @@
     height: 2rem;
     padding-left: 1rem;
     filter: invert(28%) sepia(72%) saturate(2140%) hue-rotate(196deg) brightness(97%) contrast(102%);
+}
+.footer {
+    background-color: rgb(171, 180, 199, 0.05);
 }
 .footerlink {
     color: #0171E3;
@@ -184,16 +188,6 @@
     }
 }
 @media (min-width:912px){
-    .emailcontainer {
-        max-width: 55rem;
-    }
-}
-@media (min-width:1024px){
-    .emailcontainer {
-        max-width: 55rem;
-    }
-}
-@media (min-width:1440px){
     .emailcontainer {
         max-width: 55rem;
     }
