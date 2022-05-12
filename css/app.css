@@ -59,7 +59,17 @@
 }
 .titles{
     margin: 1rem 0;
+    text-align: center;
 }
 .categorytext {
     font-weight: 100;
+    text-align: center;
 }
+.iconcolor {
+    color: #0470E3;
+}
+.icons {
+    display: flex;
+    justify-content: center;
+}
+/* Main */
