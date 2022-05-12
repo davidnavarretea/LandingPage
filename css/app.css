@@ -1,3 +1,8 @@
+/* Wrapper */
+.wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+}
 /* Navigation */
 .nav {
     display: flex;
@@ -29,6 +34,7 @@
 }
 .emailcontainer {
     max-width: 37rem;
+    text-align: center;
 }
 .form {
     text-align: center;
@@ -108,6 +114,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: rgb(171, 180, 199, 0.05);
 }
 .paddingx {
     padding: 0 1rem;
@@ -117,7 +124,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 1rem;
+    margin-top: 1.3rem;
     margin-bottom: 0.7rem;
 }
 .testimonialtitle {
@@ -138,6 +145,7 @@
 .footer {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 1rem 1.3rem 1.3rem 1.3rem;
 }
 .rrssdiv{
@@ -161,3 +169,92 @@
     margin-top: 0.3rem;
 }
 /* Media Queries */
+@media (min-width:768px){
+    .emailcontainer {
+        max-width: 45rem;
+    }
+}
+@media (min-width:820px){
+    .emailcontainer {
+        max-width: 46rem;
+    }
+    .textdiv {
+        width: 41rem;
+        height: 27.27rem;
+    }
+    .imagediv1 {
+        width: 41rem;
+        height: 27.47rem;
+    }
+    .imagediv2 {
+        width: 41rem;
+        height: 27.47rem;
+    }
+    .imagediv3 {
+        width: 41rem;
+        height: 27.47rem;
+}
+}
+@media (min-width:912px){
+    .emailcontainer {
+        max-width: 55rem;
+    }
+    .textdiv {
+        width: 50rem;
+        height: 33.5rem;
+    }
+    .imagediv1 {
+        width: 50rem;
+        height: 33.5rem;
+    }
+    .imagediv2 {
+        width: 50rem;
+        height: 33.5rem;
+    }
+    .imagediv3 {
+        width: 50rem;
+        height: 33.5rem;
+}
+}
+@media (min-width:1024px){
+    .emailcontainer {
+        max-width: 55rem;
+    }
+    .textdiv {
+        width: 50rem;
+        height: 33.5rem;
+    }
+    .imagediv1 {
+        width: 50rem;
+        height: 33.5rem;
+    }
+    .imagediv2 {
+        width: 50rem;
+        height: 33.5rem;
+    }
+    .imagediv3 {
+        width: 50rem;
+        height: 33.5rem;
+}
+}
+@media (min-width:1440px){
+    .emailcontainer {
+        max-width: 55rem;
+    }
+    .textdiv {
+        width: 56rem;
+        height: 37.52rem;
+    }
+    .imagediv1 {
+        width: 56rem;
+        height: 37.52rem;
+    }
+    .imagediv2 {
+        width: 56rem;
+        height: 37.52rem;
+    }
+    .imagediv3 {
+        width: 56rem;
+        height: 37.52rem;
+}
+}
