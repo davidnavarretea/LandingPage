@@ -113,3 +113,19 @@
     padding: 0 1rem;
 }
 /* Testimonial */
+.testimonial {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1.4rem;
+}
+.testimonialtitle {
+    margin-bottom: 0.15rem;
+}
+.people {
+    display: flex;
+}
+.profile {
+    width: 10rem;
+    border-radius: 50%;
+}
