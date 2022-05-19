@@ -176,22 +176,6 @@
     margin-top: 0.3rem;
     font-weight: 100;
 }
-/* Media Queries */
-@media (min-width:768px){
-    .emailcontainer {
-        max-width: 45rem;
-    }
-}
-@media (min-width:820px){
-    .emailcontainer {
-        max-width: 46rem;
-    }
-}
-@media (min-width:912px){
-    .emailcontainer {
-        max-width: 55rem;
-    }
-}
 /* Modal */
 .modalcontainer {
     position: absolute;
@@ -219,4 +203,30 @@
 }
 .modalhidden {
     visibility: hidden;
+}
+/* Thanks Page */
+.thanksection {
+    height: 92.5vh;
+}
+.thankbutton {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 2rem;
+}
+/* Media Queries */
+@media (min-width:768px){
+    .emailcontainer {
+        max-width: 45rem;
+    }
+}
+@media (min-width:820px){
+    .emailcontainer {
+        max-width: 46rem;
+    }
+}
+@media (min-width:912px){
+    .emailcontainer {
+        max-width: 55rem;
+    }
 }
