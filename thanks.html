@@ -11,7 +11,34 @@
         <link rel="stylesheet" href="css/app.css">
         <title>Thank you!</title>
     </head>
-<body>
-    Thank you!
-</body>
+    <body>
+        <!-- Wrapper -->
+        <div class="wrapper">
+        <!-- Navigation -->
+        <nav class="nav">
+            <a class="ico" href="index.html">Inicio</a>
+            <a class="button" href="#">Sign In</a>
+        </nav>
+        <!-- Thanks Section -->
+        <section class="emailsection thanksection">
+            <div class="emailcontainer">
+                <h1 class="title">Confirm your email account from the email link we have sent you.</h1>
+                <div class="thankbutton">
+                    <a class="button" href="#">Sign In</a>
+                </div>
+            </div>
+        </section>
+        </div>
+        <!-- Modal -->
+        <div class="modalcontainer modalhidden">
+            <div class="modal2con">
+                <form class="modal" action="loggedin.html">
+                    <input type="email" name="email" class="email" autocomplete="email" placeholder="Email" required>
+                    <input type="password" name="pass" class="email" autocomplete="current-password" placeholder="Password" required>
+                    <input type="submit" class="button submit modalbutton" value="Enter">
+                </form>
+            </div>
+        </div>
+        <script src="js/app.js" type="text/javascript"></script>
+    </body>
 </html>
