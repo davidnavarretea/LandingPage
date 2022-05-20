@@ -5,3 +5,18 @@ const button = document.querySelector('.nav .button');
 button.addEventListener('click', () => {
     modal.classList.toggle('modalhidden');
 })
+// Form Prevent Default
+const form = document.querySelector('.form');
+form.addEventListener('submit', e => {
+    e.preventDefault();
+})
+// Second Form Prevent Default
+const formbelow = document.querySelector('.emailsectionbelow .emailcontainer .form');
+formbelow.addEventListener('submit', e => {
+    e.preventDefault();
+})
+// Modal Form Prevent Default
+const formodal = document.querySelector('.modal');
+formodal.addEventListener('submit', e => {
+    e.preventDefault();
+})
