@@ -13,7 +13,11 @@ const formbelow = document.querySelector('.emailsectionbelow .emailcontainer .fo
 formbelow.addEventListener('submit', preventForm);
 // Modal Form Prevent Default
 const formodal = document.querySelector('.modal');
-formodal.addEventListener('submit', preventForm);
+formodal.addEventListener('submit', e => {
+    e.preventDefault();
+});
+// Function Prevent Default - Redirection Thanks Page
 function preventForm (e) {
     e.preventDefault();
+    window.open("../thanks.html", "_self")
 }
