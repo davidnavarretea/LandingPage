@@ -10,3 +10,8 @@ button.addEventListener('click', () => {
 button2.addEventListener('click', () => {
     modal.classList.toggle('modalhidden');
 })
+// Modal Form Prevent Default
+const formodal = document.querySelector('.modal');
+formodal.addEventListener('submit', e => {
+    e.preventDefault();
+});
